@@ -29,8 +29,7 @@
     <div id="cesiumContainer"></div>
     <script>
       var viewer = new Cesium.Viewer("cesiumContainer");
-		<!-- viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/zyakunensou15_24.kmz")); -->
-		viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/chino_over15.kml"));
+		viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/zyakunensou15_24.kmz"));
 		var tileset1 = new Cesium.Cesium3DTileset({ url: './tileset.json'});
 		tileset1.readyPromise.then(function(tileset1) {
 			viewer.scene.primitives.add(tileset1);
@@ -45,3 +44,21 @@
     </script>
   </body>
 </html>
+
+
+
+<!--
+
+		viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/zyakunensou15_24.kmz"));
+
+		viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/chino_over15.kml"));
+
+
+
+https://mieruka.city/kml/link?filepath=28068/28074/revision1/region.kmz
+
+https://mieruka.city/kml/link?filepath=28068%2F28074%2Frevision1%2Fregion.kmz
+
+https://staging.mieruka.city/kml/link?filepath=28068/28074/revision1/891_normal.kmz
+
+-->
