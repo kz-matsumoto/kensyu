@@ -28,7 +28,14 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-		var viewer = new Cesium.Viewer("cesiumContainer");
+		var viewer = new Cesium.Viewer("cesiumContainer", {
+
+			baseLayerPicker : false,
+			terrainProvider : new Cesium.CesiumTerrainProvider({
+				url : '//assets.agi.com/stk-terrain/v1/tilesets/PAMAP/tiles'
+			})
+		});
+
 		//	viewer.dataSources.add(Cesium.KmlDataSource.load("./kensyu/chiyoda/KML/zyakunensou15_24.kmz"));
 
 		var tileset1 = new Cesium.Cesium3DTileset({ url: './kensyu/chiyoda/tileset.json'});		// 3D Tilesの読み込み
@@ -43,11 +50,11 @@
 			console.log(error);
 		});
 
-		var terrainProvider = new Cesium.CesiumTerrainProvider({
+//		var terrainProvider = new Cesium.CesiumTerrainProvider({
 //			url: '//assets.agi.com/stk-terrain/world'
-			url: '//assets.agi.com/stk-terrain/v1/tilesets/PAMAP/tiles'
-		});
-		viewer.terrainProvider = terrainProvider;
+//			url: '//assets.agi.com/stk-terrain/v1/tilesets/PAMAP/tiles'
+//		});
+//		viewer.terrainProvider = terrainProvider;
 
     </script>
   </body>
