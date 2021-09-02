@@ -37,7 +37,11 @@
 			color: 'rgb(0, 0, 255)',
 			markerSymbol: '?'
 			});
-			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(1, -1, 1));
+			viewer.camera.flyTo({
+				destination: Cesium.Cartesian3.fromDegrees(138.156702, 35.995573, 1000)
+			});
+
+//			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(1, -1, 1));
 		}).otherwise(function(error) {
 			console.log(error);
 		});
