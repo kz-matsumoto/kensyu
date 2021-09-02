@@ -42,10 +42,14 @@
 		tileset1.readyPromise.then(function(tileset1) {
 			viewer.scene.primitives.add(tileset1);
 			tileset1.style = new Cesium.Cesium3DTileStyle({
-			color: 'rgb(255, 0, 192)',
+//			color: 'rgb(255, 0, 192)',
 			markerSymbol: '?'
 			});
-			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(1, 1, 1000));
+//			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(1, 1, 1000));
+			viewer.camera.flyTo({
+				destination: Cesium.Cartesian3.fromDegrees(141.3860555, 43.056222, 1000)
+			});
+
 		}).otherwise(function(error) {
 			console.log(error);
 		});
