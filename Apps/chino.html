@@ -28,7 +28,7 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-      var viewer = new Cesium.Viewer("cesiumContainer");
+		var viewer = new Cesium.Viewer("cesiumContainer");
 		viewer.dataSources.add(Cesium.KmlDataSource.load("./kensyu/chino/KML/zyakunensou15_24.kmz"));
 		var tileset1 = new Cesium.Cesium3DTileset({ url: './kensyu/chino/tileset.json'});
 		tileset1.readyPromise.then(function(tileset1) {
