@@ -29,8 +29,9 @@
     <div id="cesiumContainer"></div>
     <script>
 		var viewer = new Cesium.Viewer("cesiumContainer");
-		<!-- viewer.dataSources.add(Cesium.KmlDataSource.load("./kensyu/chiyoda/KML/zyakunensou15_24.kmz"));	-->
-		var tileset1 = new Cesium.Cesium3DTileset({ url: './kensyu/chiyoda/tileset.json'});		<!-- 3D Tilesの読み込み -->
+		//	viewer.dataSources.add(Cesium.KmlDataSource.load("./kensyu/chiyoda/KML/zyakunensou15_24.kmz"));
+
+		var tileset1 = new Cesium.Cesium3DTileset({ url: './kensyu/chiyoda/tileset.json'});		// 3D Tilesの読み込み
 		tileset1.readyPromise.then(function(tileset1) {
 			viewer.scene.primitives.add(tileset1);
 			tileset1.style = new Cesium.Cesium3DTileStyle({
