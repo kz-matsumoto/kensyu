@@ -45,8 +45,15 @@
 
 //			var center = Cesium.Cartesian3.fromRadians(2.4213211833389243, 0.6171926869414084, 3626.0426275055174);
 //			var transform = Cesium.Transforms.eastNorthUpToFixedFrame(center);
-			var transform = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(-98.0, 40.0));
-			viewer.scene.camera.lookAtTransform(transform, new Cesium.HeadingPitchRange(0, -Math.PI/8, 30000));
+//			var transform = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(-98.0, 40.0));
+//			viewer.scene.camera.lookAtTransform(transform, new Cesium.HeadingPitchRange(0, -Math.PI/8, 30000));
+
+			var transform = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(-72.0, 40.0));
+			var heading = Cesium.Math.toRadians(50.0);
+			var pitch = Cesium.Math.toRadians(-20.0);
+			var range = 5000.0;
+			viewer.camera.lookAtTransform(transform, new Cesium.HeadingPitchRange(heading, pitch, range));
+
 
 		}).otherwise(function(error) {
 			console.log(error);
