@@ -37,12 +37,12 @@
 			color: 'rgb(0, 0, 255)',
 			markerSymbol: '?'
 			});
-			viewer.camera.flyTo({
-				destination: Cesium.Cartesian3.fromDegrees(138.156702, 35.995573, 3000)	// 茅野市役所
-			});
+//			viewer.camera.flyTo({
+//				destination: Cesium.Cartesian3.fromDegrees(138.156702, 35.995573, 3000)	// 茅野市役所
+//			});
 
 //			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(1, -1, 1000));
-			viewer.scene.camera.lookAtTransform(transform, new Cesium.HeadingPitchRange(0, -Math.PI/8, 3000));
+			viewer.scene.camera.lookAtTransform(transform, new Cesium.HeadingPitchRange(0, -Math.PI/8, 30000));
 
 		}).otherwise(function(error) {
 			console.log(error);
