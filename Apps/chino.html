@@ -34,11 +34,11 @@
 		tileset1.readyPromise.then(function(tileset1) {
 			viewer.scene.primitives.add(tileset1);
 			tileset1.style = new Cesium.Cesium3DTileStyle({
-			color: 'rgb(0, 0, 255)',
+			color: 'rgb(0, 255, 0)',
 			markerSymbol: '?'
 			});
 			viewer.camera.flyTo({
-				destination: Cesium.Cartesian3.fromDegrees(138.156702, 35.995573, 1000)	// 茅野市役所
+				destination: Cesium.Cartesian3.fromDegrees(138.156702, 35.995573, 10000)	// 茅野市役所
 			});
 
 //			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(1, -1, 1000));
