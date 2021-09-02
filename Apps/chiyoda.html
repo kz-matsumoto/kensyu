@@ -45,10 +45,12 @@
 //			color: 'rgb(255, 0, 192)',
 			markerSymbol: '?'
 			});
-//			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(0, -1, 100));
 			viewer.camera.flyTo({
-				destination: Cesium.Cartesian3.fromDegrees(139.7388267, 35.6868824, 1000)
+				destination: Cesium.Cartesian3.fromDegrees(139.7512526, 35.6940438, 3000)	// 千代田区役所
 			});
+
+//			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(0, -1, 1000));	// 
+			viewer.scene.camera.lookAtTransform(transform, new Cesium.HeadingPitchRange(0, -Math.PI/8, 3000));
 
 		}).otherwise(function(error) {
 			console.log(error);
