@@ -43,7 +43,10 @@
 			console.log(error);
 		});
 
-		var terrainProvider = new Cesium.CesiumTerrainProvider({ url: '//assets.agi.com/stk-terrain/world'});
+		var terrainProvider = new Cesium.CesiumTerrainProvider({
+//			url: '//assets.agi.com/stk-terrain/world'
+			url: '//assets.agi.com/stk-terrain/v1/tilesets/PAMAP/tiles'
+		});
 		viewer.terrainProvider = terrainProvider;
 
     </script>
