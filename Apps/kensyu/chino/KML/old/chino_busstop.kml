@@ -1,57 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>長野県茅野市_バス停.kml</name>
+	<name>茅野市_バス停.kml</name>
 	<Schema name="茅野市_バス停" id="S_茅野市_バス停_S">
 		<SimpleField type="string" name="バス停名"><displayName>&lt;b&gt;バス停名&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="normPointStyle">
-		<IconStyle>
-			<color>ccff55ff</color>
-			<scale>0.8</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td></td><td></td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ccff55ff</color>
-			<width>1.6</width>
-		</LineStyle>
-	</Style>
-	<Style id="hlightPointStyle">
-		<IconStyle>
-			<color>ccff55ff</color>
-			<scale>0.933333</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td></td><td></td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ccff55ff</color>
-			<width>1.6</width>
-		</LineStyle>
-	</Style>
 	<StyleMap id="pointStyleMap">
 		<Pair>
 			<key>normal</key>
@@ -62,6 +16,52 @@
 			<styleUrl>#hlightPointStyle</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>バス停名</b></td><td>$[茅野市_バス停/バス停名]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>1.6</width>
+		</LineStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>バス停名</b></td><td>$[茅野市_バス停/バス停名]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>1.6</width>
+		</LineStyle>
+	</Style>
 	<Folder id="layer 0">
 		<name>茅野市_バス停</name>
 		<open>1</open>
