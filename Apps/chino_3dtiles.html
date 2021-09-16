@@ -28,26 +28,26 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-		var viewer = new Cesium.Viewer("cesiumContainer");
+      var viewer = new Cesium.Viewer("cesiumContainer");
 
-		var tileset1 = new Cesium.Cesium3DTileset({ url: './kensyu/chino/tileset.json'});
-		tileset1.readyPromise.then(function(tileset1) {
-			viewer.scene.primitives.add(tileset1);
-			tileset1.style = new Cesium.Cesium3DTileStyle({
-				color: 'rgb(255, 216, 0)',
-				markerSymbol: '?'
-			});
-			viewer.camera.flyTo({
-				destination: Cesium.Cartesian3.fromDegrees(138.35, 35.90, 10000),
-				orientation : {
-					heading : Cesium.Math.toRadians(0.0),
-					pitch : Cesium.Math.toRadians(-45.0),
-					roll : 0.0
-				}
-			});
-		}).otherwise(function(error) {
-			console.log(error);
-		});
+      var tileset1 = new Cesium.Cesium3DTileset({ url: './kensyu/chino/tileset.json'});
+      tileset1.readyPromise.then(function(tileset1) {
+        viewer.scene.primitives.add(tileset1);
+        tileset1.style = new Cesium.Cesium3DTileStyle({
+          color: 'rgb(0, 255, 255)',
+          markerSymbol: '?'
+        });
+        viewer.camera.flyTo({
+          destination: Cesium.Cartesian3.fromDegrees(138.15, 35.90, 10000),
+          orientation : {
+            heading : Cesium.Math.toRadians(0.0),
+            pitch : Cesium.Math.toRadians(-45.0),
+            roll : 0.0
+          }
+        });
+      }).otherwise(function(error) {
+        console.log(error);
+      });
 
 //		viewer.dataSources.add(Cesium.KmlDataSource.load("./kensyu/chino/KML/zyakunensou15_24.kmz"));
 
