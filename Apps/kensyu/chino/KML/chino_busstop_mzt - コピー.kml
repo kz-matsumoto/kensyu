@@ -29,7 +29,7 @@
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td></td><td></td></tr>
+  <tr><td><b>バス停名</b></td><td>$[茅野市_バス停/バス停名]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
 		<ListStyle>
@@ -52,7 +52,7 @@
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td></td><td></td></tr>
+  <tr><td><b>バス停名</b></td><td>$[茅野市_バス停/バス停名]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
 		<ListStyle>
