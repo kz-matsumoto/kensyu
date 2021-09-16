@@ -28,25 +28,27 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-      var viewer = new Cesium.Viewer("cesiumContainer");
-      var tileset1 = new Cesium.Cesium3DTileset({ url: './kensyu/chino/tileset.json'});
-      tileset1.readyPromise.then(function(tileset1) {
-        viewer.scene.primitives.add(tileset1);
-        tileset1.style = new Cesium.Cesium3DTileStyle({
-          color: 'rgb(0, 0, 127)',
-          markerSymbol: '?'
-        });
-        viewer.camera.flyTo({
-          destination: Cesium.Cartesian3.fromDegrees(138.2373804, 35.75, 30000),
-          orientation : {
-            heading : Cesium.Math.toRadians(0.0),
-            pitch : Cesium.Math.toRadians(-45.0),
-            roll : 0.0
-          }
-        });
-      }).otherwise(function(error) {
-        console.log(error);
-      });
+		var viewer = new Cesium.Viewer("cesiumContainer");
+
+		var tileset1 = new Cesium.Cesium3DTileset({ url: './kensyu/chino/tileset.json'});
+		tileset1.readyPromise.then(function(tileset1) {
+			viewer.scene.primitives.add(tileset1);
+			tileset1.style = new Cesium.Cesium3DTileStyle({
+			color: 'rgb(0, 0, 127)',
+			markerSymbol: '?'
+			});
+			viewer.camera.flyTo({
+				destination: Cesium.Cartesian3.fromDegrees(138.2373804, 35.75, 30000),	// 視聴用基準地点
+				orientation : {
+					heading : Cesium.Math.toRadians(0.0),
+					pitch : Cesium.Math.toRadians(-45.0),
+					roll : 0.0
+				}
+			});
+		}).otherwise(function(error) {
+			console.log(error);
+		});
+
     </script>
   </body>
 </html>
