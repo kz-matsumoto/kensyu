@@ -29,7 +29,7 @@
     <div id="cesiumContainer"></div>
     <script>
       var viewer = new Cesium.Viewer("cesiumContainer");
-      viewer.dataSources.add(Cesium.KmlDataSource.load("./kensyu/chino/KML/chino_busstop.kml"));
+      viewer.dataSources.add(Cesium.KmlDataSource.load("./sample/chino/KML/chino_busstop.kml"));
       viewer.camera.flyTo({
           destination: Cesium.Cartesian3.fromDegrees(138.2373804, 35.75, 30000),
           orientation : {

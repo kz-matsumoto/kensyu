@@ -1,0 +1,4480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>長野県茅野市_バス停.kml</name>
+	<Schema name="茅野市_バス停" id="S_茅野市_バス停_S">
+		<SimpleField type="string" name="バス停名"><displayName>&lt;b&gt;バス停名&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<color>ccff55ff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td></td><td></td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ccff55ff</color>
+			<width>1.6</width>
+		</LineStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<color>ccff55ff</color>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td></td><td></td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ccff55ff</color>
+			<width>1.6</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>茅野市_バス停</name>
+		<open>1</open>
+		<Placemark>
+			<name>御狩野公民館</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">御狩野公民館</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2098719999999,35.9413480008969,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>御狩野</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">御狩野</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.205886,35.94279400089692,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>青柳駅前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">青柳駅前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.197418,35.94142900089689,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>青柳</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">青柳</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1955389999999,35.94316200089692,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">大沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.193405,35.94177000089693,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大沢公民館</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">大沢公民館</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1920269999999,35.94072500089692,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>旭ヶ丘</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">旭ヶ丘</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1910839999999,35.94141300089693,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢上町</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金沢上町</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.191111,35.94656300089694,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金鶏の湯</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金鶏の湯</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1888369999999,35.948821000897,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢学校入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金沢学校入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1891909999999,35.94733200089698,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢下町</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金沢下町</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.18691,35.94950400089699,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢台入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金沢台入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.187566,35.95193500089706,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢台公民館</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金沢台公民館</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1884759999999,35.95110100089704,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢橋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金沢橋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1852249999999,35.95194600089701,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>新金沢入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">新金沢入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.181472,35.95297500089706,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>新金沢上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">新金沢上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1823149999999,35.95129100089701,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>堂ヶ入</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">堂ヶ入</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1804619999999,35.95369000089703,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大池</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">大池</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.178829,35.95667900089709,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>清水橋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">清水橋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1810092662914,35.95886432324046,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>木舟</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">木舟</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1773109999999,35.96244600089544,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>木舟入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">木舟入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1752969999999,35.96535400089716,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>坂室</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">坂室</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1651139999999,35.98067800089733,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大阿原入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">大阿原入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.161173,35.98461400089733,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>新田中</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">新田中</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1581759999999,35.98674200089739,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>宮川茅野</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">宮川茅野</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1559679999999,35.9868230008957,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>茅野郵便局前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">茅野郵便局前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1524879999999,35.9872460008974,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>銭場</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">銭場</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1501059999999,35.98966000089742,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上川橋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">上川橋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1522209999999,35.98979000089742,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>文化センター前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">文化センター前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.153746,35.98882100089742,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>西茅野入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">西茅野入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1552319999999,35.9874030008974,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>四ッ家</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">四ッ家</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1570649999999,35.98753800089738,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ひばりヶ丘上り口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ひばりヶ丘上り口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1603839999999,35.98609200089736,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ひばりヶ丘入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ひばりヶ丘入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1626789999999,35.98682900089739,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ひばりヶ丘郵便局前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ひばりヶ丘郵便局前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1646189999999,35.98621700089739,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>両久保区民会館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">両久保区民会館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.168741,35.98593500089736,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>わかば保育園</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">わかば保育園</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1716719999999,35.98684000089738,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>長峰中学上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">長峰中学上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.171176,35.98912400089739,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中央病院</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中央病院</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1763819999999,35.99120300089743,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>野球場前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">野球場前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.168687,35.99105700089741,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八束張</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">八束張</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1596999999999,35.99291400089746,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>市役所入口(ひとまちプラザ前)</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">市役所入口(ひとまちプラザ前)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1578,35.99454400089748,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>市役所</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">市役所</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1593119999999,35.99537800089746,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>永明中学入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">永明中学入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1546999999999,35.99659500089748,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>茅野駅</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">茅野駅</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1516852464299,35.99419198208214,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塚原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">塚原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1504449999999,35.99891900089752,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塚原1丁目</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">塚原1丁目</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1544869999999,35.99966600089753,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>本町城山団地口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">本町城山団地口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1687619999999,36.00078600089584,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>城山入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">城山入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1709769999999,36.00381300089754,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>城山中</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">城山中</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.168989,36.00434300089758,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>城山上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">城山上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1689419999999,36.00555100089758,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>城山下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">城山下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.170722,36.00450000089759,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>御座石神社</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">御座石神社</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.173453,36.00202600089752,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>本町東</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">本町東</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1720409999999,36.00055900089752,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ショッピングセンター前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ショッピングセンター前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1690159999999,35.99917300089751,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>粟沢橋北</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">粟沢橋北</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1697989999999,35.99817200089746,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>粟沢橋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">粟沢橋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1704595530645,35.99783723282788,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>粟沢坂下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">粟沢坂下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.173821,35.99726800089748,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>和田入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">和田入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.178505,35.99747900089752,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>辻屋前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">辻屋前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1838859999999,35.99099800089745,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>矢ヶ崎橋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">矢ヶ崎橋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1643379999999,35.99566500089747,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>本町5丁目</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">本町5丁目</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.163147,35.9965750008975,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>横内送水場</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">横内送水場</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1464569999999,35.99311000089746,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>横内下河原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">横内下河原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.144008,35.99615300089748,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">上原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1419189999999,36.0003110008975,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アクアランド前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">アクアランド前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.140367,36.00335400089757,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>柏原車庫前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">柏原車庫前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.226175,36.05559700089807,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>柏原公民館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">柏原公民館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2259949999999,36.05386000089808,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>柏原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">柏原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2263899999999,36.05150100089806,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>柏原入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">柏原入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.226557,36.04965500089803,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>湯川</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">湯川</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2252119999999,36.0403150008979,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>湯川公民館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">湯川公民館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.22471,36.03852900089792,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>北山小学校前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">北山小学校前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2241739999999,36.03462600089785,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>花蒔公園入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">花蒔公園入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.214308,36.03213100089785,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塩沢口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">塩沢口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1992869999999,36.03314800089787,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塩壺の湯</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">塩壺の湯</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1944809999999,36.03580100089787,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塩沢入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">塩沢入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.198631,36.03629300089785,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>宮前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">宮前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1998829999999,36.03549200089788,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塩沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">塩沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.201335,36.03466900089786,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>十五社前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">十五社前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1919256428935,36.03547014080551,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>北大塩</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">北大塩</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1858789999999,36.03226600089783,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>米沢地区コミュニティセンター前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">米沢地区コミュニティセンター前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1838769999999,36.03036600089781,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鋳物師屋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">鋳物師屋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1776249999999,36.02442700089775,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>米沢台入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">米沢台入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1745259999999,36.02434100089779,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>米沢台東</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">米沢台東</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.174506,36.02494200089775,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>米沢台上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">米沢台上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.172658,36.02322000089777,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>米沢台中</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">米沢台中</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1737429999999,36.02379900089775,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鋳物師屋入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">鋳物師屋入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1762259999999,36.02264100089774,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>埴原田上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">埴原田上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1759989999999,36.01799000089768,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>埴原田</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">埴原田</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.173087,36.01438400089769,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>製板前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">製板前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1730729999999,36.0105940008976,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鬼場</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">鬼場</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.175041,36.00402100089756,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>裏通り</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">裏通り</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2254799999999,35.99698400089749,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>表通り</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">表通り</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.225801,35.99638800089745,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>河原の湯</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">河原の湯</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2276419999999,35.99577000089748,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>泉野学校前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">泉野学校前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2304139999999,35.99598700089745,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小屋場下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小屋場下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.226725,35.99266100089744,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中道</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中道</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2232569999999,35.99207600089743,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>茶立場</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">茶立場</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.216911,35.99174000089745,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山田上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山田上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2130809999999,35.99164300089742,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.205945,35.99452500089747,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>田道</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">田道</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2002809999999,35.99540200089749,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>南小泉</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">南小泉</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1941419999999,35.99561900089746,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>緑区入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">緑区入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1917919999999,35.99590600089751,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>神の原上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">神の原上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1861419999999,35.99557500089745,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>望岳の湯</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">望岳の湯</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1973819999999,35.98145500089735,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>丸山上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">丸山上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1969539999999,35.97587500089729,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>丸山</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">丸山</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.195073,35.97566400089725,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>丸山公会所前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">丸山公会所前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.192241,35.97609700089727,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>丸山入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">丸山入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1898909999999,35.97692100089726,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>宮川分教所前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">宮川分教所前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1839789999999,35.97868100089728,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>田沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">田沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1790239999999,35.9801120008973,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>田沢下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">田沢下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.176734,35.98032300089729,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>みどりヶ丘</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">みどりヶ丘</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.173059,35.98107600089732,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>酒室神社上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">酒室神社上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1682309999999,35.98094100089735,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>北久保</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">北久保</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1716329999999,35.98424000089737,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>長峰</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">長峰</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1728109999999,35.98935000089738,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>長峰上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">長峰上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1789109999999,35.98796300089737,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>東向ヶ丘</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">東向ヶ丘</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.182092,35.97480200089728,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>東向ヶ丘入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">東向ヶ丘入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.178101,35.97567000089727,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>向ヶ丘</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">向ヶ丘</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.173025,35.97754500089729,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>向ヶ丘県住前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">向ヶ丘県住前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1699589999999,35.97829300089727,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下槻木公民館</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">下槻木公民館</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2291399999999,35.9975310008975,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>宮川小学校前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">宮川小学校前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1574559999999,35.98973000089741,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>茅野高校前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">茅野高校前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.162666,35.99038000089743,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>観音堂前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">観音堂前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2108189999999,36.01646800089769,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下新井</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">下新井</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1339199368896,36.00025806315096,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>本町2丁目</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">本町2丁目</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1680529999999,35.99715200089748,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>白井出</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">白井出</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2674109999999,36.01918600089772,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>白井出下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">白井出下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2644779999999,36.01987400089773,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>笹原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">笹原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2592669999999,36.02309200089776,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下辻</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">下辻</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.25711,36.02387700089777,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>笹原農協支所前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">笹原農協支所前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.255134,36.02185700089774,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>須栗平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">須栗平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2491589999999,36.02085400089772,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>須栗平区公民館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">須栗平区公民館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2481739999999,36.02191600089774,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>須栗平下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">須栗平下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2466469999999,36.02352000089776,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>湖東支所前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">湖東支所前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2188619999999,36.02108400089769,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>湖東組合前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">湖東組合前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2156809999999,36.02187500089775,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>湖東地区コミュニティセンター前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">湖東地区コミュニティセンター前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.21268,36.02331100089773,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>堀</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">堀</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2135926683807,36.02368299756785,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>東平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">東平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.208299,36.02254100089774,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中村</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中村</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2002809999999,36.02385200089778,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>赤坂</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">赤坂</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1975879999999,36.02352200089773,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上菅沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">上菅沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1942189999999,36.02130600089771,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>菅沢入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">菅沢入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1937909999999,36.01951300089772,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>菅沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">菅沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.188779,36.02045000089771,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下菅沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">下菅沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.188505,36.02283900089778,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中大塩中央</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中大塩中央</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1877610109171,36.02628600304569,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>北大塩口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">北大塩口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1851489999999,36.02953600089781,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鋳物師屋口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">鋳物師屋口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1773049999999,36.02331900089776,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>埴原田口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">埴原田口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1759169999999,36.01436500089767,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福沢公民館</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">福沢公民館</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1775919999999,36.01449000089766,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福沢中</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">福沢中</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1769489999999,36.01033900089761,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福沢口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">福沢口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.176982,36.00636700089758,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>玉川学校入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">玉川学校入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1916399999999,35.98597300089735,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>菊沢下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">菊沢下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1940049999999,35.98563200089735,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>菊沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">菊沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1981049999999,35.98554000089737,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>長円寺下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">長円寺下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2030289999999,35.98511100089737,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>穴山</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">穴山</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2078529999999,35.98438500089737,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上赤坂</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">上赤坂</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.211451,35.9825090008973,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山田</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山田</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2078999999999,35.98823900089742,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山田公民館</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山田公民館</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2104459999999,35.9907930008974,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>東部中学前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">東部中学前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2019899999999,35.99061400089745,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小堂見上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小堂見上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1995249999999,35.99060300089742,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小堂見</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小堂見</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1952229999999,35.98990900089739,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>玉川地区コミュニティセンター前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">玉川地区コミュニティセンター前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1898899999999,35.9893400008974,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ビーナ神の原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ビーナ神の原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1854679999999,35.99048400089741,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金山</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金山</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2293669999999,36.02493400089777,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>横谷峡入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">横谷峡入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.267432,36.03660300089788,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>滝見平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">滝見平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2661459999999,36.03421400089785,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鉄山入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">鉄山入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2568219999999,36.03460900089785,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>糸萱</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">糸萱</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.247096,36.03059600089782,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>糸萱入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">糸萱入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2448249999999,36.02947400089779,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>柳添</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">柳添</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.231015,36.02979800089783,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>芹ヶ沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">芹ヶ沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2273769999999,36.03042300089782,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>花蒔入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">花蒔入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.219883,36.0280640008978,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>松原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">松原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2175649999999,36.02716400089779,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.214081,36.0277500008978,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山口下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山口下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.211561,36.02928300089782,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>わでむら</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">わでむら</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2050619999999,36.02807500089779,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中村公民館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中村公民館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1996949999999,36.02732700089781,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中大塩団地上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中大塩団地上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1930289999999,36.02708800089778,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中大塩団地中</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中大塩団地中</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1872329999999,36.02657400089777,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中大塩保育園</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中大塩保育園</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1840709999999,36.02512100089778,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中大塩団地下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中大塩団地下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1806869999999,36.02239600089773,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>豊平組合前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">豊平組合前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2021339999999,36.0169400008977,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>南大塩</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">南大塩</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2068449999999,36.01723200089771,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>縄文交番前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">縄文交番前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.205404,36.02042500089772,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山寺上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山寺上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2038029999999,36.02135700089774,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山寺</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山寺</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.196372,36.02037600089774,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上菅沢公民館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">上菅沢公民館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1931549999999,36.02161700089771,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上菅沢下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">上菅沢下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1906829999999,36.02127000089773,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下菅沢東</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">下菅沢東</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.186937,36.02101500089769,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下菅沢西</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">下菅沢西</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1845519999999,36.02006100089773,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福沢工業団地</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">福沢工業団地</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1852949999999,36.01481500089766,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福沢工業団地入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">福沢工業団地入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1845519999999,36.01325400089767,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>長倉</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">長倉</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1807459999999,36.01017000089762,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福沢入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">福沢入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.178005,36.00723300089761,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小泉入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小泉入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.176913,35.9986140008975,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小泉公民館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小泉公民館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.17966,36.00060400089753,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小泉保育園前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小泉保育園前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.182059,36.00122200089751,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小泉上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小泉上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1872789999999,36.00172600089752,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>和田</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">和田</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.18297,35.99848900089751,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小原橋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小原橋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.185724,36.03570700089789,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>宝勝寺前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">宝勝寺前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1830239999999,36.03423300089787,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>平橋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">平橋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1822799999999,36.03159400089783,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>豊平組合上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">豊平組合上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.203013,36.01702100089769,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>神の原入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">神の原入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1821849999999,35.99534500089749,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>神の原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">神の原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1829769999999,35.99414200089748,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>神の原農協前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">神の原農協前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1837599999999,35.99275700089743,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>子の神</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">子の神</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1880439999999,35.98638600089738,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>栗平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">栗平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2399449999999,36.03708800089788,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>杜鵑峡上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">杜鵑峡上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.240919,36.03746900089787,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ゴルフ場入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ゴルフ場入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2515249999999,36.04989200089802,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>聖光寺前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">聖光寺前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.255101,36.05150200089805,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>蓼科湖前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">蓼科湖前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.256757,36.05187200089806,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>リゾートホテル蓼科前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">リゾートホテル蓼科前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.260457,36.05306200089804,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>もんがく平別荘地入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">もんがく平別荘地入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2626329999999,36.05475700089807,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>滝の湯入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">滝の湯入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2627299999999,36.05726400089811,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>プール平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">プール平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2674609999999,36.05811800089811,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>親湯入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">親湯入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2683419999999,36.05991300089811,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>笹丸平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">笹丸平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2727329999999,36.05423900089291,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>桜ヶ丘</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">桜ヶ丘</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.277124,36.06159000089817,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>城の平入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">城の平入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.28293,36.06331400089817,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小三室</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">小三室</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.285635,36.06094200089815,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>石臼台別荘地</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">石臼台別荘地</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2913349999999,36.0672880008982,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ピラタスの丘</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ピラタスの丘</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2929829999999,36.07071400089821,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>諏訪バス蓼科高原別荘入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">諏訪バス蓼科高原別荘入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2894669999999,36.07440300089825,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>諏訪バス蓼科高原別荘</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">諏訪バス蓼科高原別荘</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.28952,36.07391800089825,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>蓼科国際ホテル村前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">蓼科国際ホテル村前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2995079999999,36.06308600089817,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>三菱重工・三井化学保養所前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">三菱重工・三井化学保養所前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2995429999999,36.06551800089819,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>北八ヶ岳ロープウェイ</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">北八ヶ岳ロープウェイ</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3027509999999,36.06791900089821,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中央保育園前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中央保育園前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1732179999999,36.00138000089755,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>南大塩入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">南大塩入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.187733,36.01493300089766,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>南大塩下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">南大塩下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1930209999999,36.01550400089771,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>尖石縄文の湯</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">尖石縄文の湯</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2204139999999,36.01489800089769,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>北部中学校入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">北部中学校入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2152369999999,36.02465700089775,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>蓼科ビレッジ入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">蓼科ビレッジ入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2623819999999,36.0354670008979,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>弓木入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">弓木入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.270128,36.04180200089795,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>緑山</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">緑山</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.269776,36.04627300089798,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>緑山入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">緑山入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2748949999999,36.04668300089797,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>石切場</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">石切場</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.27769,36.04112900089795,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>横谷観音入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">横谷観音入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.284952,36.04005500089793,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ピアみどり</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ピアみどり</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2037999999999,36.02082000089771,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>柏原上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">柏原上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2224179999999,36.06480000089818,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>緑の村入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">緑の村入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.222056,36.07676700089829,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山の神</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山の神</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.222674,36.08538300089835,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>白樺湖入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">白樺湖入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2289759999999,36.10187300089854,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>南白樺湖</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">南白樺湖</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2346249999999,36.10357700089857,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>グランド前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">グランド前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.237688,36.10374100089855,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>問屋川</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">問屋川</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2395329999999,36.10486800089859,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>西白樺湖</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">西白樺湖</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2331859999999,36.1067800008986,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大門峠</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">大門峠</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.233751,36.10971100089862,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>車山高原</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">車山高原</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2122109999999,36.10082400089852,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>払沢車庫</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">払沢車庫</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2198539999999,35.96273400089713,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>原村役場</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">原村役場</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2173719999999,35.96403100089712,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>払沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">払沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.217779,35.96566900089717,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>試験地</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">試験地</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2198809999999,35.97156500089723,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八ッ手辻</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">八ッ手辻</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2199599999999,35.97306900089725,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>柳沢</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">柳沢</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2192949999999,35.98083900089734,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>柳沢入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">柳沢入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.218307,35.98180000089735,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>作業所前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">作業所前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2199109999999,35.9795280008973,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>製板前(穴山・原村線）</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">製板前(穴山・原村線）</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2192359999999,35.97698700089729,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八ッ手車庫前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">八ッ手車庫前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.219726,35.97516700089726,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>岩下</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">岩下</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.24227,36.10658700089858,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>東白樺湖</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">東白樺湖</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2426489999999,36.1084770008986,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>矢の口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">矢の口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1853844034291,35.95362633037525,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>長峰中学校前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">長峰中学校前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1692391876558,35.98990000581439,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ベルビア西口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ベルビア西口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1511767737003,35.99385857955024,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>横谷観音</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">横谷観音</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2895625433449,36.0383691181524,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広見</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">広見</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2476724596504,36.01312348517069,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>荒神</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">荒神</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.172783253032,35.99174930595014,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>竜神池入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">竜神池入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2380302243764,36.01332945708749,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>尖石縄文考古館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">尖石縄文考古館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2338028941792,36.01321512662076,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>運動公園入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">運動公園入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1635549076787,35.9924639634213,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>諏訪ステーションパーク南</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">諏訪ステーションパーク南</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1298791536202,36.00301612242489,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>諏訪ステーションパーク</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">諏訪ステーションパーク</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1293493029689,36.00618548831358,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>メリーパーク</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">メリーパーク</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1535487794661,35.98665483081376,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>インターチェンジ</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">インターチェンジ</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2272529999999,36.03280700089787,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>市役所入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">市役所入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1582431671949,35.99697845491054,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山田入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">山田入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2063035380322,35.99099324903271,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ひと・まちプラザ</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ひと・まちプラザ</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1585668379308,35.99409576729365,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>新井公民館</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">新井公民館</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2208855243465,36.02240318381859,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中大塩地区センター入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中大塩地区センター入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1825744279,36.02395788548895,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中大塩中東</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中大塩中東</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1895344706597,36.02698228159711,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>米沢支所前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">米沢支所前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1838342790801,36.03035183142318,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢上々町</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">金沢上々町</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1929341364895,35.945573210516,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中央公民館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中央公民館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1537612952541,35.98881155574248,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中大塩第二区民会館入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">中大塩第二区民会館入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.1914809963998,36.02706345475862,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>麦草峠</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">麦草峠</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3447139761796,36.05871931426412,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>岩小場</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">岩小場</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3278290577601,36.05739931776914,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>メルヘン広場</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">メルヘン広場</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3110093768787,36.05334751346435,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>渋川展望台</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">渋川展望台</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3052736063669,36.04748237802922,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>冷山入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">冷山入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2985855179626,36.04588441057646,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>渋川口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">渋川口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2924668885464,36.04181694344875,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>渋の湯</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">渋の湯</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3280434700795,36.03597905352515,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>辰野館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">辰野館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3102701970097,36.03308127641121,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ヴィラ奥蓼科入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">ヴィラ奥蓼科入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.299564107473,36.03411390494761,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>明治温泉入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">明治温泉入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2932001561672,36.03511438371868,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>いずみ平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">いずみ平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2768809669618,36.02969770826655,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>白駒の池</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">白駒の池</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3556609999999,36.055344,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>美濃戸口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">美濃戸口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.3009511850393,35.98197625077181,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>事務所上</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">事務所上</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2980575606001,35.98135737362048,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>太陽館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">太陽館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2925569938022,35.98023285289695,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>学林</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">学林</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2890187309774,35.97958595974094,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八ヶ岳中央農業実践大学校前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">八ヶ岳中央農業実践大学校前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2687511447351,35.97932415844622,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八ヶ岳小さな絵本美術館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">八ヶ岳小さな絵本美術館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2554194835004,35.98072799332341,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>笹原保育園前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">笹原保育園前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.256815929877,36.02211808762345,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>東十文字平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">東十文字平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2778657339621,36.04522692760516,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>十文字平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">十文字平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2741653351152,36.04922043535616,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>竜源橋</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">竜源橋</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2920323357207,36.08284511106422,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>蓼科山登山口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">蓼科山登山口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2809231594247,36.08427007687445,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>世界の影絵・きり絵・ガラス・オルゴール美術館前</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">世界の影絵・きり絵・ガラス・オルゴール美術館前</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2360199999999,36.10899099999996,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>南平台別荘入口</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">南平台別荘入口</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.246227144023,36.10548542309472,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>奥白樺</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">奥白樺</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.2640771826977,36.09670696102362,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>南平</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_茅野市_バス停_S">
+					<SimpleData name="バス停名">南平</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>138.277098899542,36.09481906086114,400.0000000000001</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
