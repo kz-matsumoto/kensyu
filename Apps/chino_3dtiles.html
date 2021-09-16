@@ -34,11 +34,10 @@
 		tileset1.readyPromise.then(function(tileset1) {
 			viewer.scene.primitives.add(tileset1);
 			tileset1.style = new Cesium.Cesium3DTileStyle({
-			color: 'rgb(0, 0, 127)',
-			markerSymbol: '?'
+				color: 'rgb(0, 0, 127)',
+				markerSymbol: '?'
 			});
 			viewer.camera.flyTo({
-//				destination: Cesium.Cartesian3.fromDegrees(138.156702, 35.995573, 12000),	// 茅野市役所
 				destination: Cesium.Cartesian3.fromDegrees(138.2373804, 35.75, 30000),	// 視聴用基準地点
 				orientation : {
 					heading : Cesium.Math.toRadians(0.0),
@@ -47,21 +46,9 @@
 				}
 			});
 
-//			viewer.zoomTo(tileset1, new Cesium.HeadingPitchRange(0, -Math.PI/8, 10000));
 
-//			var center = Cesium.Cartesian3.fromRadians(2.4213211833389243, 0.6171926869414084, 3626.0426275055174);
-//			var transform = Cesium.Transforms.eastNorthUpToFixedFrame(center);
-//			var transform = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(-98.0, 40.0));
-//			viewer.scene.camera.lookAtTransform(transform, new Cesium.HeadingPitchRange(0, -Math.PI/8, 30000));
 
-//			var transform = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(-72.0, 40.0));
-//			var heading = Cesium.Math.toRadians(50.0);
-//			var pitch = Cesium.Math.toRadians(-20.0);
-//			var range = 5000.0;
-//			viewer.camera.lookAtTransform(transform, new Cesium.HeadingPitchRange(heading, pitch, range));
 
-//			var transform = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(-98.0, 40.0));
-//			viewer.camera.lookAtTransform(transform, new Cesium.Cartesian3(0.0, -4790000.0, 3930000.0));
 
 
 		}).otherwise(function(error) {
