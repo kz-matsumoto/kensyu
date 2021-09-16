@@ -30,6 +30,14 @@
     <script>
       var viewer = new Cesium.Viewer("cesiumContainer");
       viewer.dataSources.add(Cesium.KmlDataSource.load("./kensyu/chino/KML/zyakunensou15_24.kmz"));
+      viewer.camera.flyTo({
+          destination: Cesium.Cartesian3.fromDegrees(138.2373804, 35.75, 30000),
+          orientation : {
+            heading : Cesium.Math.toRadians(0.0),
+            pitch : Cesium.Math.toRadians(-45.0),
+            roll : 0.0
+          }
+      });
     </script>
   </body>
 </html>
