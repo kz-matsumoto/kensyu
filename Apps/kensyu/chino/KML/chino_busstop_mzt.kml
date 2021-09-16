@@ -16,32 +16,9 @@
 			<styleUrl>#hlightPointStyle</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="hlightPointStyle">
-		<IconStyle>
-			<color>ff00aaff</color>
-			<scale>0.933333</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>バス停名</b></td><td>$[茅野市_バス停/バス停名]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff00aaff</color>
-			<width>1.6</width>
-		</LineStyle>
-	</Style>
 	<Style id="normPointStyle">
 		<IconStyle>
-			<color>ff00aaff</color>
+			<color>ff7f00ff</color>
 			<scale>0.8</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -58,7 +35,30 @@
 		<ListStyle>
 		</ListStyle>
 		<LineStyle>
-			<color>ff00aaff</color>
+			<color>ffff00ff</color>
+			<width>1.6</width>
+		</LineStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<color>ff7f00ff</color>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>バス停名</b></td><td>$[茅野市_バス停/バス停名]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
 			<width>1.6</width>
 		</LineStyle>
 	</Style>
