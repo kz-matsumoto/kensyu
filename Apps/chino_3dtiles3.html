@@ -35,9 +35,10 @@
         tileset1.style = new Cesium.Cesium3DTileStyle({
           color: {
             conditions:[
-              ["${地上階数} >= 10","rgb(255, 0, 255)"],
-              ["${地上階数} >= 3","rgb(0, 255, 255)"],
-              ["true","rgb(0, 0, 255)"]
+              ["Number(${地上階数}) >= 4","rgb(255, 0, 0)"],
+              ["Number(${地上階数}) >= 3","rgb(0, 255, 0)"],
+              ["Number(${地上階数}) >= 2","rgb(0, 0, 255)"],
+              ["true","rgb(255, 255, 255)"]
             ]
           },
           markerSymbol: '?'
