@@ -10,7 +10,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
     />
-    <title>4_Let's try 3D Tiles data of Chino City in Cesium</title>
+    <title>5_Let's try 3D Tiles data of Chino City in Cesium</title>
     <script src="../Build/Cesium/Cesium.js"></script>
     <style>
       @import url(../Build/Cesium/Widgets/widgets.css);
@@ -35,9 +35,9 @@
         tileset1.style = new Cesium.Cesium3DTileStyle({
           color: {
             conditions:[
-              ["${_height} >= 4","rgb(0, 255, 255)"],
               ["${_height} >= 10","rgb(255, 0, 255)"],
-              ["true","rgb(255, 255, 255)"]
+              ["${_height} >= 4","rgb(0, 255, 255)"],
+              ["true","rgb(0, 0, 255)"]
             ]
           },
           markerSymbol: '?'
