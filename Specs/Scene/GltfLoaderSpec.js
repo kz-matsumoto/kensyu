@@ -1,5 +1,6 @@
 import {
   AttributeType,
+  Axis,
   Cartesian2,
   Cartesian3,
   Cartesian4,
@@ -30,6 +31,7 @@ import {
 } from "../../Source/Cesium.js";
 import createScene from "../createScene.js";
 import generateJsonBuffer from "../generateJsonBuffer.js";
+import loaderProcess from "../loaderProcess.js";
 import pollToPromise from "../pollToPromise.js";
 import waitForLoaderProcess from "../waitForLoaderProcess.js";
 
@@ -69,6 +71,8 @@ describe(
       "./Data/Models/GltfLoader/BoxInstancedInterleaved/glTF/box-instanced-interleaved.gltf";
     var boxInstancedTranslation =
       "./Data/Models/GltfLoader/BoxInstancedTranslation/glTF/box-instanced-translation.gltf";
+    var boxInstancedTranslationMinMax =
+      "./Data/Models/GltfLoader/BoxInstancedTranslationWithMinMax/glTF/box-instanced-translation-min-max.gltf";
     var duckDraco = "./Data/Models/GltfLoader/Duck/glTF-Draco/Duck.gltf";
     var boomBoxSpecularGlossiness =
       "./Data/Models/GltfLoader/BoomBox/glTF-pbrSpecularGlossiness/BoomBox.gltf";
@@ -121,6 +125,25 @@ describe(
       gltfLoader.load();
 
       return waitForLoaderProcess(gltfLoader, scene);
+    }
+
+    function loadGltfFromJson(gltfPath, options) {
+      return Resource.fetchJson({
+        url: gltfPath,
+      }).then(function (gltf) {
+        var loaderOptions = combine(options, {
+          gltf: gltf,
+          gltfResource: new Resource({
+            url: gltfPath,
+          }),
+          incrementallyLoadTextures: false,
+        });
+        var gltfLoader = new GltfLoader(loaderOptions);
+        gltfLoaders.push(gltfLoader);
+        gltfLoader.load();
+
+        return waitForLoaderProcess(gltfLoader, scene);
+      });
     }
 
     function loadModifiedGltfAndTest(gltfPath, options, modifyFunction) {
@@ -921,7 +944,7 @@ describe(
         expect(featureIdAttribute.byteOffset).toBe(0);
         expect(featureIdAttribute.byteStride).toBe(4);
 
-        expect(primitive.featureIdAttributes.length).toBe(1);
+        expect(primitive.featureIdAttributes.length).toBe(2);
         expect(primitive.featureIdTextures.length).toBe(0);
         expect(primitive.featureTextureIds.length).toBe(0);
 
@@ -1154,10 +1177,10 @@ describe(
         expect(featureIdAttribute.max).toBeUndefined();
         expect(featureIdAttribute.constant).toBe(0);
         expect(featureIdAttribute.quantization).toBeUndefined();
-        expect(featureIdAttribute.typedArray).toBeUndefined();
-        expect(featureIdAttribute.buffer).toBeDefined();
+        expect(featureIdAttribute.typedArray).toBeDefined();
+        expect(featureIdAttribute.buffer).toBeUndefined();
         expect(featureIdAttribute.byteOffset).toBe(0);
-        expect(featureIdAttribute.byteStride).toBe(4);
+        expect(rotationAttribute.byteStride).toBeUndefined();
 
         expect(instances.featureIdAttributes.length).toBe(2);
 
@@ -1454,6 +1477,59 @@ describe(
         expect(translationAttribute.max).toBeUndefined();
         expect(translationAttribute.constant).toEqual(Cartesian3.ZERO);
         expect(translationAttribute.quantization).toBeUndefined();
+        expect(translationAttribute.typedArray).toEqual(
+          new Float32Array([-2, 2, 0, -2, -2, 0, 2, -2, 0, 2, 2, 0])
+        );
+        expect(translationAttribute.buffer).toBeUndefined();
+        expect(translationAttribute.byteOffset).toBe(0);
+        expect(translationAttribute.byteStride).toBeUndefined();
+      });
+    });
+
+    it("loads BoxInstancedTranslationWithMinMax", function () {
+      if (!scene.context.instancedArrays) {
+        return;
+      }
+
+      return loadGltf(boxInstancedTranslationMinMax).then(function (
+        gltfLoader
+      ) {
+        var components = gltfLoader.components;
+        var scene = components.scene;
+        var rootNode = scene.nodes[0];
+        var primitive = rootNode.primitives[0];
+        var attributes = primitive.attributes;
+        var positionAttribute = getAttribute(
+          attributes,
+          VertexAttributeSemantic.POSITION
+        );
+        var normalAttribute = getAttribute(
+          attributes,
+          VertexAttributeSemantic.NORMAL
+        );
+        var instances = rootNode.instances;
+        var instancedAttributes = instances.attributes;
+        var translationAttribute = getAttribute(
+          instancedAttributes,
+          InstanceAttributeSemantic.TRANSLATION
+        );
+
+        expect(positionAttribute).toBeDefined();
+        expect(normalAttribute).toBeDefined();
+
+        expect(translationAttribute.semantic).toBe(
+          InstanceAttributeSemantic.TRANSLATION
+        );
+        expect(translationAttribute.componentDatatype).toBe(
+          ComponentDatatype.FLOAT
+        );
+        expect(translationAttribute.type).toBe(AttributeType.VEC3);
+        expect(translationAttribute.normalized).toBe(false);
+        expect(translationAttribute.count).toBe(4);
+        expect(translationAttribute.min).toEqual(new Cartesian3(-2, -2, 0));
+        expect(translationAttribute.max).toEqual(new Cartesian3(2, 2, 0));
+        expect(translationAttribute.constant).toEqual(Cartesian3.ZERO);
+        expect(translationAttribute.quantization).toBeUndefined();
         expect(translationAttribute.typedArray).toBeUndefined();
         expect(translationAttribute.buffer).toBeDefined();
         expect(translationAttribute.byteOffset).toBe(0);
@@ -1525,9 +1601,6 @@ describe(
           VertexAttributeSemantic.TEXCOORD,
           0
         );
-        var positionQuantization = positionAttribute.quantization;
-        var normalQuantization = normalAttribute.quantization;
-        var texcoordQuantization = texcoordAttribute.quantization;
 
         var indices = primitive.indices;
 
@@ -1561,28 +1634,6 @@ describe(
         expect(positionAttribute.buffer).toBeDefined();
         expect(positionAttribute.byteOffset).toBe(0);
         expect(positionAttribute.byteStride).toBeUndefined();
-        expect(positionQuantization.octEncoded).toBe(false);
-        expect(positionQuantization.normalizationRange).toEqual(
-          new Cartesian3(2047, 2047, 2047)
-        );
-        expect(positionQuantization.quantizedVolumeOffset).toEqual(
-          new Cartesian3(
-            -69.29850006103516,
-            9.929369926452637,
-            -61.32819747924805
-          )
-        );
-        expect(positionQuantization.quantizedVolumeDimensions).toEqual(
-          new Cartesian3(
-            165.4783935546875,
-            165.4783935546875,
-            165.4783935546875
-          )
-        );
-        expect(positionQuantization.componentDatatype).toBe(
-          ComponentDatatype.UNSIGNED_SHORT
-        );
-        expect(positionQuantization.type).toBe(AttributeType.VEC3);
 
         expect(normalAttribute.name).toBe("NORMAL");
         expect(normalAttribute.semantic).toBe(VertexAttributeSemantic.NORMAL);
@@ -1610,14 +1661,6 @@ describe(
         expect(normalAttribute.buffer).toBeDefined();
         expect(normalAttribute.byteOffset).toBe(0);
         expect(normalAttribute.byteStride).toBeUndefined();
-        expect(normalQuantization.octEncoded).toBe(true);
-        expect(normalQuantization.normalizationRange).toBe(255);
-        expect(normalQuantization.quantizedVolumeOffset).toBeUndefined();
-        expect(normalQuantization.quantizedVolumeDimensions).toBeUndefined();
-        expect(normalQuantization.componentDatatype).toBe(
-          ComponentDatatype.UNSIGNED_BYTE
-        );
-        expect(normalQuantization.type).toBe(AttributeType.VEC2);
 
         expect(texcoordAttribute.name).toBe("TEXCOORD_0");
         expect(texcoordAttribute.semantic).toBe(
@@ -1641,20 +1684,6 @@ describe(
         expect(texcoordAttribute.buffer).toBeDefined();
         expect(texcoordAttribute.byteOffset).toBe(0);
         expect(texcoordAttribute.byteStride).toBeUndefined();
-        expect(texcoordQuantization.octEncoded).toBe(false);
-        expect(texcoordQuantization.normalizationRange).toEqual(
-          new Cartesian2(1023, 1023)
-        );
-        expect(texcoordQuantization.quantizedVolumeOffset).toEqual(
-          new Cartesian2(0.026409000158309937, 0.01996302604675293)
-        );
-        expect(texcoordQuantization.quantizedVolumeDimensions).toEqual(
-          new Cartesian2(0.9600739479064941, 0.9600739479064941)
-        );
-        expect(texcoordQuantization.componentDatatype).toBe(
-          ComponentDatatype.UNSIGNED_SHORT
-        );
-        expect(texcoordQuantization.type).toBe(AttributeType.VEC2);
 
         expect(indices.indexDatatype).toBe(IndexDatatype.UNSIGNED_SHORT);
         expect(indices.count).toBe(12636);
@@ -1664,9 +1693,9 @@ describe(
         expect(positionAttribute.buffer).not.toBe(normalAttribute.buffer);
         expect(positionAttribute.buffer).not.toBe(texcoordAttribute.buffer);
 
-        expect(positionAttribute.buffer.sizeInBytes).toBe(14394);
-        expect(normalAttribute.buffer.sizeInBytes).toBe(4798);
-        expect(texcoordAttribute.buffer.sizeInBytes).toBe(9596);
+        expect(positionAttribute.buffer.sizeInBytes).toBe(28788);
+        expect(normalAttribute.buffer.sizeInBytes).toBe(28788);
+        expect(texcoordAttribute.buffer.sizeInBytes).toBe(19192);
       });
     });
 
@@ -1681,6 +1710,8 @@ describe(
         var material = primitive.material;
         var specularGlossiness = material.specularGlossiness;
 
+        expect(scene.upAxis).toBe(Axis.Y);
+        expect(scene.forwardAxis).toBe(Axis.Z);
         expect(material.occlusionTexture.texture.width).toBe(128);
         expect(material.normalTexture.texture.width).toBe(128);
         expect(material.emissiveTexture.texture.width).toBe(128);
@@ -1699,6 +1730,28 @@ describe(
 
         // Does not load metallic roughness textures
         expect(textureCreate.calls.count()).toBe(5);
+      });
+    });
+
+    it("loads model from parsed JSON object", function () {
+      return loadGltfFromJson(triangle).then(function (gltfLoader) {
+        var components = gltfLoader.components;
+        var scene = components.scene;
+        var rootNode = scene.nodes[0];
+        var primitive = rootNode.primitives[0];
+        var attributes = primitive.attributes;
+        var positionAttribute = getAttribute(
+          attributes,
+          VertexAttributeSemantic.POSITION
+        );
+
+        expect(positionAttribute).toBeDefined();
+        expect(primitive.indices).toBeDefined();
+        expect(primitive.indices.indexDatatype).toBe(
+          IndexDatatype.UNSIGNED_SHORT
+        );
+        expect(primitive.indices.count).toBe(3);
+        expect(primitive.indices.buffer).toBeDefined();
       });
     });
 
@@ -1807,7 +1860,7 @@ describe(
 
         // Continue processing to load in textures
         return pollToPromise(function () {
-          gltfLoader.process(scene.frameState);
+          loaderProcess(gltfLoader, scene);
           return gltfLoader._textureLoaders.every(function (loader) {
             return (
               loader._state === ResourceLoaderState.READY ||

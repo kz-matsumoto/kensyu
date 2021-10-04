@@ -1,6 +1,6 @@
 // This file is automatically rebuilt by the Cesium build process.
-const hello_world_index = 97;
-const VERSION = '1.84';
+const hello_world_index = 99;
+const VERSION = '1.86';
 const gallery_demos = [{
   "name": "3D Models",
   "isNew": false,
@@ -281,6 +281,14 @@ const gallery_demos = [{
   "name": "Clock",
   "isNew": false,
   "img": "Clock.jpg"
+}, {
+  "name": "Cloud Parameters",
+  "isNew": false,
+  "img": "Cloud Parameters.jpg"
+}, {
+  "name": "Clouds",
+  "isNew": false,
+  "img": "Clouds.jpg"
 }, {
   "name": "Clustering",
   "isNew": false,
