@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8" />
+    <!-- Tell IE to use the latest, best version. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <title>Let's try 3D Tiles data of Koto Ward in Cesium</title>
+
+
+<!-- if 標準仕様 -->
+    <script src="../Build/Cesium/Cesium.js"></script>
+    <style>
+      @import url(../Build/Cesium/Widgets/widgets.css);
+      html,
+      body,
+      #cesiumContainer {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    </style>
+
+<!-- else if 地理院地図を使う場合 --
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.63.1/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.63.1/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <style>
+      #cesiumContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        height: 100%;
+      }
+    </style>
+<!-- end if -->
+
+
+
+  </head>
+  <body>
+    <div id="cesiumContainer"></div>
+    <script>
+
+/* if 標準仕様 *
+      var viewer = new Cesium.Viewer("cesiumContainer");
+/*/
+      var viewer = new Cesium.Viewer('cesiumContainer', {
+          terrainProvider : new Cesium.CesiumTerrainProvider({
+              url : Cesium.IonResource.fromAssetId(3956),
+              requestVertexNormals : true
+          })
+      });
+
+
+/* else if 地理院地図を使う *
+      var viewer = new Cesium.Viewer('cesiumContainer', {
+        imageryProvider: new Cesium.createOpenStreetMapImageryProvider({
+          url: 'https://cyberjapandata.gsi.go.jp/xyz/std/',
+          credit: new Cesium.Credit('地理院タイル', '', 'https://maps.gsi.go.jp/development/ichiran.html')
+        }),
+
+        terrainProvider : new Cesium.CesiumTerrainProvider({
+            url : Cesium.IonResource.fromAssetId(3956),
+            requestVertexNormals : true
+        }),
+
+//        terrainProvider : Cesium.createWorldTerrain(),
+
+        baseLayerPicker: false,
+        homeButton: false
+      });
+/* end 標準仕様／地理院地図を使う */
+
+
+      var tileset1 = new Cesium.Cesium3DTileset({ url: './sample/koto/tileset.json'});
+      tileset1.readyPromise.then(function(tileset1) {
+        viewer.scene.primitives.add(tileset1);
+        tileset1.style = new Cesium.Cesium3DTileStyle({
+          markerSymbol: '?'
+        });
+        viewer.camera.flyTo({
+          destination: Cesium.Cartesian3.fromDegrees(139.795, 35.574, 4000),
+          orientation : {
+            heading : Cesium.Math.toRadians(0.0),
+            pitch : Cesium.Math.toRadians(-30.0),
+            roll : 0.0
+          }
+        });
+      }).otherwise(function(error) {
+        console.log(error);
+      });
+    </script>
+  </body>
+</html>
